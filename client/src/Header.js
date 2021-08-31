@@ -41,7 +41,7 @@ function Header() {
          </div>
          <div className="header_right">
             <div className="header_info">
-               <Avatar />
+               <Avatar src="https://scontent.fdad3-3.fna.fbcdn.net/v/t1.6435-1/cp0/p60x60/150552669_1348643195499808_528222375090222078_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=wUY96tDRedwAX8atqMV&_nc_ht=scontent.fdad3-3.fna&oh=d035d1d13ee695d3940010ce754e17be&oe=6153B5A0"/>
                <h4>Nguyen Minh Tri</h4>
             </div>
          </div>

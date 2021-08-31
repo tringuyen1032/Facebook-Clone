@@ -1,0 +1,6 @@
+- Post status (with image)
+- Login with Google (avatar, full name)
+- Story
+- View profile + update
+- Gallery
+- Chat real-time
