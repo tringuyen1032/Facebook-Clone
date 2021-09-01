@@ -6,9 +6,9 @@ function StoryReel() {
    return (
       <div className="storyReel">
          <Story 
-         image="https://scontent-sin6-4.xx.fbcdn.net/v/t1.6435-9/s280x280/240486529_1717709201763352_7161825796768817744_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=365331&_nc_ohc=S6HUw8veYNUAX9KDpUS&_nc_ht=scontent-sin6-4.xx&oh=75238152da5bb1c12361986a83b71daa&oe=61536B52"
-         profileSrc="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-1/cp0/p40x40/151210384_1580816765452597_6267541548558925882_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=7206a8&_nc_ohc=P9Nnb0-68GwAX8zi0tG&_nc_ht=scontent-hkg4-1.xx&oh=2a21c3b8a44f4f7e41ab9ec893661bde&oe=6153492B"
-         title="Huỳnh Thanh Vi"/>
+         image="https://scontent.fsgn2-4.fna.fbcdn.net/v/t15.5256-10/s280x280/239250139_225319989417510_8543403933847822086_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=6qunHUOg9JUAX-770Vk&tn=sy73wdm4pcW_eV_I&_nc_ht=scontent.fsgn2-4.fna&oh=c18754fccfc01d400ba19af7a636899a&oe=613508AD"
+         profileSrc="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.6435-1/cp0/p40x40/132001345_2855887561298502_8211788519614920761_n.png?_nc_cat=1&ccb=1-5&_nc_sid=1eb0c7&_nc_ohc=JyKXGb_Cq8QAX_Qumwr&_nc_ht=scontent.fsgn2-4.fna&oh=c9e5195d7398e587b25f69fc21cf41a7&oe=6155BE04"
+         title="TikTok"/>
          <Story 
          image="https://scontent-hkt1-1.xx.fbcdn.net/v/t51.36329-10/s280x280/240944737_325459049330553_7037800383411828782_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ad6a45&_nc_ohc=017z2JmhzK8AX_EA_5X&tn=sy73wdm4pcW_eV_I&_nc_ht=scontent-hkt1-1.xx&oh=eae048132031bf17428d42d9ec52c32c&oe=6132985E"
          profileSrc="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-1/cp0/p40x40/224535560_1398073893912320_7234996849879991466_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=-l_xHIOWc3gAX8iI1XB&tn=sy73wdm4pcW_eV_I&_nc_ht=scontent-hkg4-1.xx&oh=c12d9adb088c931f1900b965a44f9c53&oe=61539162"
