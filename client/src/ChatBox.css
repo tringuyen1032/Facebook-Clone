@@ -1,0 +1,126 @@
+.header_chatBox {
+   padding: 5px 5px;
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   background-color: #fb86ae;
+   z-index: 100;
+   border-radius: 7px 7px 0px 0px;
+   box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header_left {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+
+.header_right {
+   display: flex;
+   margin-left: 20px;
+}
+
+.header_right > .icon_option > .MuiSvgIcon-root {
+   color: gray;
+}
+
+.header_left > .MuiAvatar-root {
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+.chat_form {
+   background-color:#ffecf3;
+   height: 300px;
+   padding: 10px;
+   overflow-y: scroll;
+}
+
+.footer_chatBox {
+   padding: 10px 5px;
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   background-color: #ffecf3;
+   z-index: 100;
+   box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.footer_left {
+   display: flex;
+   align-items: center;
+}
+
+
+.footer_left > .footer_option > .MuiSvgIcon-root {
+   margin: 2px;
+   color: #fb86ae;
+}
+
+.footer_left > .footer_option > .MuiAvatar-root {
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+.footer_left > .footer_input > form >input {
+   border: none;
+   outline-width: 0;
+   background-color: #e5e5e5;
+   border-radius: 15px;
+   padding-left: 10px;
+   width: 120px;
+   margin: 4px;
+   font-size: medium;
+   height: 25px;
+}
+
+.footer_left > .footer_input > form > button {
+   display: none;
+}
+
+.footer_option:hover {
+   background-color: #e5e5e5;
+   border-radius: 10px;
+   align-items: center;
+   border-bottom: none;
+}
+
+.icon_option {
+   padding: 3px;
+}
+
+.icon_option:hover {
+   background-color: #e5e5e5;
+   border-radius: 10px;
+   align-items: center;
+   border-bottom: none;
+}
+
+.chat_box {
+   display: none;
+   box-shadow: 0px 5px 17px -7px rgb(0 0 0 / 75%);
+   margin-right: 10px;
+}
+
+.footer_input {
+   display: flex;
+   align-items: center;
+   background-color: #e5e5e5;
+   border-radius: 999px;
+}
+
+.footer_input > .footer_icon_smile > .MuiSvgIcon-root {
+   margin: 2px;
+   color: #fb86ae;
+}
+
+.footer_input > .footer_icon_smile:hover {
+   background-color: #d2d2d2;
+   border-radius: 999px;
+   align-items: center;
+   border-bottom: none;
+}
+

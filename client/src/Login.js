@@ -1,24 +1,39 @@
 import { Button } from '@material-ui/core'
 import React from 'react'
 import './Login.css'
-import { auth, provider } from './firebase'
-import { useStateValue} from './StateProvider'
-import {actionTypes} from './reducer'
+import { auth, provider, realtimeDB } from './firebase'
+import { useStateValue } from './StateProvider'
+import { actionTypes } from './reducer'
+import { useRouter, userRouter } from 'next/router'
 
 function Login() {
    const [state, dispatch] = useStateValue()
 
    const signIn = () => {
       auth.signInWithPopup(provider)
-      .then((result) => {
-         dispatch({
-            type: actionTypes.SET_USER,
-            user: result.user,
+         .then((result) => {
+            dispatch({
+               type: actionTypes.SET_USER,
+               user: result.user,
+            })
+            realtimeDB.ref('users').orderByChild('user').equalTo(result.user.email).on("value", function (snapshot) {
+               if (snapshot.val() != null) {
+                  const updates = {};
+                  const key = Object.keys(snapshot.val())[0]
+                  updates[`users/${key}/status`] = true;
+                  realtimeDB.ref().update(updates)
+               } else {
+                  realtimeDB.ref('users').push({
+                     user: result.user.email,
+                     photoURL: result.user.photoURL,
+                     displayName: result.user.displayName,
+                     status: true
+                  })
+               }
+            });
+         }).catch((error) => {
+            console.log(error.message);
          })
-         console.log(result.user);
-      }).catch((error) => {
-         console.log(error.message);
-      })
    }
    return (
       <div className="login">

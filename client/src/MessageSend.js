@@ -34,7 +34,7 @@ function MessageSend() {
                   value={input}
                   onChange={e => setInput(e.target.value)}
                   className="messageSender_input"
-                  placeholder={"What's on your mind. " + user.displayName}
+                  placeholder={"What's on your mind. " + user.displayName + "?"}
                />
                <input
                   value={imageUrl}
